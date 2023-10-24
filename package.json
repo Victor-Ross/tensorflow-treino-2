@@ -1,0 +1,24 @@
+{
+  "name": "ben-hur-varriano",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx ./src/index.ts",
+    "predict": "tsx ./src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.11.0",
+    "oracledb": "^6.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@types/oracledb": "^6.0.2",
+    "tsx": "^3.13.0",
+    "typescript": "^5.2.2"
+  }
+}
